@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  
+  .finance-tracker,
+  .charts,
+  .insights {
+    margin-top: 20px;
+  }
+  
+  #finance-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .form-group {
+    flex: 1 1 30%;
+  }
+  
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #36A2EB;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2399d4;
+  }
+  
+  #balance-summary {
+    margin-top: 20px;
+  }
+  
+  canvas {
+    margin-top: 20px;
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .goal-tracker {
+    margin-top: 20px;
+  }
+  
+  .goal-tracker progress {
+    width: 100%;
+  }
+  
+  .budget-alerts {
+    margin-top: 20px;
+    background-color: #ffcccb;
+    padding: 15px;
+    border-radius: 5px;
+    color: #d8000c;
+  }
+  
+  .budget-alerts p {
+    margin: 0;
+  }
+  
